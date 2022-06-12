@@ -1,0 +1,148 @@
+
+.header{
+    padding: 2% 10%;
+}
+.navbar-expand-lg .navbar-collapse {
+    font-size: 1.5em;
+}
+.nav-item{
+    padding-right: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'monospace';
+}
+.navbar-brand{
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: 'fontawesome';
+}
+
+.color{
+    color: #F66B0E;
+}
+.fa-solid:hover{
+    color: #F66B0E;
+}
+.nav-item a:hover{
+    color: #F66B0E !important;
+    text-decoration: underline;
+}
+.d-flex{
+    
+    padding: 3% 20%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.button1{
+    border: 2px solid #F66B0E;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px 15px;
+    font-family: 'monospace';
+    letter-spacing: 2px;
+}
+.button1:hover{
+    color: white;
+background-color: #F66B0E;
+}
+.title{
+    /* background-color: #F66B0E; */
+    background-image: linear-gradient(to right,#F66B0E,#f0dabc);
+    margin: 2% 10%;
+    /* border: 2px solid #F66B0E; */
+    border-radius: 10px;
+}
+.rotated{
+    height: 25em;
+    margin: 5% 5%;
+}
+.title h1{
+    color: white;
+    font-family: 'monospace';
+    font-weight: bold;
+    font-size: 3.5em;
+}
+.title h3{
+    color: white;
+    font-family: 'monospace';
+}
+#temp{
+    padding: 3% 7%;
+}
+#temp h3{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.product h1{
+    padding-bottom: 2em;
+    text-align: center;
+    font-family: 'Fontawesome';
+    
+    font-size: 1.5em;
+}
+.product{
+    padding: 1% 10%;
+}
+.card-title{
+    
+    font-family: 'monospace';
+    font-weight: bold;
+    color: #F66B0E;
+}
+.card-body{
+    text-align: center;
+}
+.btnnew{
+    width: 100%;
+}
+#features{
+    text-align: center;
+    padding: 1% 10%;
+}
+#features h1{
+    padding-bottom: 2em;
+    padding-top: 1em;
+    font-family: 'Fontawesome';
+    letter-spacing: 2px;
+    
+    font-size: 1.5em;
+}
+
+.fa-solid{
+    padding-bottom: .4em;
+}
+.footer{
+    padding: 1% 10%;
+    text-align: center;
+    background-image: linear-gradient(to right,#F66B0E,#f0dabc);
+}
+.footer h4{
+    color: white;
+   font-size: 1em;
+    font-family: 'Fontawesome';
+    letter-spacing: 2px;
+}
+@media screen and (max-width:550px){
+    .rotated{
+        height: 15em;
+        margin: 8% 10%;
+    }
+    .product h1 {
+        padding-bottom: 1em;
+        padding-top: 1em;}
+        .row>*{padding-bottom: 1.5em;}
+        .footer{
+            font-size: .4em;
+            padding-top: 1.5em;
+            
+        }
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('prealoader-gif.gif') no-repeat center;
+    z-index: 999;
+}
