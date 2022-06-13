@@ -138,6 +138,12 @@ background-color: #F66B0E;
             padding-top: 1.5em;
             
         }
+        .title h1{
+            font-size: 2em;
+        }
+        .carousel-item {
+            padding-top: 1em;
+        }
 }
 #loading{
     position: fixed;
