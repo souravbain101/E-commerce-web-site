@@ -5,3 +5,4 @@ function myfunction() {
 function one() {
     preloader.style.display='none';
 }
+AOS.init();
